@@ -10,11 +10,11 @@ It is intended to be built as a dynamic library.
 
 Provides two exported functions:
 
-[`RangeSpan GetTokensRangeImplementation(CharSpan input);`](#RangeSpan-GetTokensRangeImplementation(CharSpan-input))
+[`RangeSpan GetTokensRangeImplementation(CharSpan input);`](#RangeSpan-GetTokensRangeImplementationCharSpan-input)
 
 and
 
-[`void ReleaseResources();`](#void-ReleaseResources())
+[`void ReleaseResources();`](#void-ReleaseResources)
 
 ## Memory layout
 
