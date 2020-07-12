@@ -44,21 +44,21 @@ RangeSpan
 
 ## Definitions
 
-#### range
+### range
 
 A pair of pointers (begin, end) denoting a contiguous "range" of elements in memory.
 
-#### raw token
+### raw token
 
 A substring of characters which are either non-space or a space character enclosed in quotes.
 
-#### token
+### token
 
 A [raw token](#raw-token) with removed quotes.
 
 ## Usage
 
-#### RangeSpan GetTokensRangeImplementation(CharSpan input)
+### RangeSpan GetTokensRangeImplementation(CharSpan input)
 
 Returns a [range](#range) of tokens in input.
 
@@ -66,6 +66,6 @@ Returns a [range](#range) of tokens in input.
 
 Allocates memory for the ranges.
 
-#### void ReleaseResources()
+### void ReleaseResources()
 
 Releases memory allocated by `RangeSpan GetTokensRangeImplementation(CharSpan input)`
