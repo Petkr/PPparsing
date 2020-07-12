@@ -27,8 +27,8 @@ A 2-byte integer.
 ```cpp
 CharSpan
 {
-	Char* begin;
-	Char* end;
+	Char*;
+	Char*;
 };
 ```
 
@@ -37,8 +37,8 @@ CharSpan
 ```cpp
 RangeSpan
 {
-	CharSpan* begin;
-	CharSpan* end;
+	CharSpan*;
+	CharSpan*;
 };
 ```
 
@@ -54,7 +54,7 @@ A substring of characters which are either non-space or a space character enclos
 
 #### token
 
-A raw token with removed quotes.
+A [raw token](#raw-token) with removed quotes.
 
 ## Usage
 
