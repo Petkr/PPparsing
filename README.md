@@ -2,7 +2,7 @@
 
 C++ token parsing library.
 
-## Basic info
+## Build info
 
 It is intended to be built as a dynamic library.
 
