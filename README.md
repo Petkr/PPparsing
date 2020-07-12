@@ -68,4 +68,4 @@ Allocates memory for the ranges.
 
 ### void ReleaseResources()
 
-Releases memory allocated by `RangeSpan GetTokensRangeImplementation(CharSpan input)`
+Releases memory allocated by [`RangeSpan GetTokensRangeImplementation(CharSpan input)`](#RangeSpan-GetTokensRangeImplementationCharSpan-input)
